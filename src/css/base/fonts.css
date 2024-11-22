@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'PFStardust';
+    src: url(./PF스타더스트\ 3.0.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFStardust';
+    src: url(./PF스타더스트\ 3.0\ Bold.ttf) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFStardust';
+    src: url(./PF스타더스트\ 3.0\ ExtraBold.ttf) format('woff');
+    font-weight: ExtraBold;
+    font-style: normal;
+}
