@@ -4,6 +4,7 @@
     top: 0;
     width: 100%;
     z-index: 999;
+    color: var(--white);
 
     .header__inner {
         display: flex;
@@ -27,6 +28,7 @@
         }
 
         .header__nav {
+
             li {
                 display: inline-block;
 

@@ -5,14 +5,32 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'PFStardust';
+    font-family: 'PFStardustbold';
     src: url(./PF스타더스트\ 3.0\ Bold.ttf) format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'PFStardust';
+    font-family: 'PFStardustexbold';
     src: url(./PF스타더스트\ 3.0\ ExtraBold.ttf) format('woff');
-    font-weight: ExtraBold;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url(./GmarketSansTTFLight.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url(./GmarketSansTTFMedium.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansbold';
+    src: url(./GmarketSansTTFBold.ttf) format('woff');
+    font-weight: normal;
     font-style: normal;
 }

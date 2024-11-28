@@ -1,9 +1,18 @@
 :root {
-    --mainko-font: "Black Han Sans";
-    --maineng-font: "Aldrich";
-    --mainnum-font: "Gowun Batang";
+    --main-font: 'PFStardust';
+    --bold-font: 'PFStardustbold';
+    --exbold-font: 'PFStardustexbold';
 
-    --mainBg-color: #fdd;
+    --sublig-font: 'GmarketSansLight';
+    --submed-font: 'GmarketSansMedium';
+    --subbold-font: 'GmarketSansbold';
+
+    --font-size-h2: 200px;
+    --font-size-h3: 100px;
+
+    --font-weight-h2: bold;
+
+    --mainBg-color: #000;
     --maincolor100-color: #fdd;
     --maincolor200-color: #ffd;
     --maincolor300-color: rgb(218, 122, 122);
@@ -24,7 +33,7 @@
     --black300: #313131;
 
 
-    font-family: var(--mainko-font), var(--maineng-font), var(--mainnum-font);
+    font-family: var(--main-font), var(--bold-font), var(--exbold-font), var(--sublig-font), var(--submed-font), var(--subbold-font);
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
@@ -37,13 +46,50 @@
 }
 
 body {
-    color: var(#313131);
-    background-color: var(--maincolor100-color);
+    color: var(--white);
 }
 
+section {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+    position: relative;
+}
 
-@media (max-width:800px) {
-    :root {
-        font-size: 14px;
+h2 {
+    -webkit-text-stroke-color: #A1A1A1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-repeat: no-repeat;
+    font-family: var(--bold-font);
+}
+
+.mum {
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+@media (max-width:767px) {
+    h2{
+        font-size: 90px;
     }
 }
+
+@media (max-width:768px) {
+    h2{
+        font-size: 120px;
+    }
+}
+
+@media (min-width:1024px) {
+    h2 {
+        font-size: 200px;
+    }
+}
+
+@media (max-width:1440px) {}

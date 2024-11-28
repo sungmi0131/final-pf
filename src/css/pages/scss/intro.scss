@@ -1,0 +1,61 @@
+#intro {
+    background-color: var(--black);
+    // background: url(/image/Artboard\ 1.png) no-repeat bottom center/cover;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .intro__title {
+        position: absolute;
+        color: #fff;
+        font-size: 150px;
+        font-family: var(--submed-font);
+        -webkit-text-stroke-color: #A1A1A1;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+
+        em {
+            font-family: var(--subBold-font);
+            -webkit-text-fill-color: #FFF;
+        }
+    }
+
+    .mum {
+        color: #fff;
+    }
+
+    .timeline {
+        
+        width: 100%;
+        .path {
+            fill: none;
+            stroke: #f5dc00;
+            stroke-miterlimit: 10;
+            stroke-width: 6px;
+            stroke-dasharray: 10;
+        }
+
+        .intro__icon {
+            width: 10vw;
+        }
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+    #intro .intro__title {
+        font-size: 70px;
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (min-width:1024px) {}
+
+@media (max-width:1440px) {}

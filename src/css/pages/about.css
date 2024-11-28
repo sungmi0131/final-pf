@@ -1,0 +1,9 @@
+#about {
+  background-color: var(--black);
+}
+#about h2 {
+  text-align: left;
+}
+#about p {
+  color: #fff;
+}

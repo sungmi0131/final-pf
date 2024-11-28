@@ -1,0 +1,46 @@
+#intro {
+  background-color: var(--black);
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#intro .intro__title {
+  position: absolute;
+  color: #fff;
+  font-size: 150px;
+  font-family: var(--submed-font);
+  -webkit-text-stroke-color: #A1A1A1;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  text-align: center;
+}
+#intro .intro__title em {
+  font-family: var(--subBold-font);
+  -webkit-text-fill-color: #FFF;
+}
+#intro .mum {
+  color: #fff;
+}
+#intro .timeline {
+  width: 100%;
+}
+#intro .timeline .path {
+  fill: none;
+  stroke: #f5dc00;
+  stroke-miterlimit: 10;
+  stroke-width: 6px;
+  stroke-dasharray: 10;
+}
+#intro .timeline .intro__icon {
+  width: 10vw;
+}
+
+@media (max-width: 767px) {
+  #intro .intro__title {
+    font-size: 70px;
+  }
+}

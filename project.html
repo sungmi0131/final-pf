@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/base/reset.css">
+    <style>
+        #project {
+            height: 100vh;
+            border: 1px solid #000;
+            position: relative;
+        }
+
+        h2 {
+            text-align: center;
+            color: #000;
+            left: 50%;
+            pointer-events: none;
+            position: absolute;
+            text-transform: uppercase;
+            top: 4.25rem;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            white-space: nowrap;
+            z-index: 1;
+            font-size: 100px;
+        }
+
+        .project__wrap {
+            border: 1px solid #00f;
+            height: 80vh;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .project__list {
+            max-width: 1920px;
+            height: 100%;
+            display: flex;
+            gap: 30px;
+        }
+
+        .pro {
+            min-width: 80%;
+            height: 100%;
+            background-color: #ccc;
+            background-size: cover;
+            background-position: right center;
+        }
+
+        .proj1 {
+            background-image: url(/image/project-symbol.png);
+        }
+
+        .proj2 {
+            background-image: url(/image/project-app.png);
+        }
+
+        .proj3 {
+            background-image: url(/image/project-symbol.png);
+        }
+
+        .proj4 {
+            background-image: url(/image/project-symbol.png);
+        }
+    </style>
+</head>
+
+<body>
+    <section id="project">
+        <h2>PROJECT</h2>
+        <div class="project__wrap">
+            <ul class="project__list">
+                <li class="pro proj1">
+                    <a href="#">
+                        <div class="project__image">
+
+                            <div class="list__summery">
+                                <h3>로고디자인</h3>
+                                <h4>LOGO DESGIN</h4>
+                                <P>identity 분석 후 심볼 디자인을 진행했습니다</P>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="pro proj2">
+                    <a href="#">
+                        <div class="project__image">
+                            <div class="list__summery">
+                                <h3>web 디자인</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                </li>
+                <li class="pro proj3">
+                    <a href="#">
+                        <div class="project__image">
+                            <div class="list__summery">
+                                <h3>app 디자인</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                </li>
+                <li class="pro proj4">
+                    <a href="">
+                        <div class="project__image">
+                            <div class="list__summery">
+                                <h3>포토폴리오 기획서</h3>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="mum">2.</div>
+    </section>
+</body>
+
+</html>
